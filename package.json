@@ -1,14 +1,32 @@
 {
-  "name"         : "node-todo",
-  "version"      : "0.0.0",
-  "description"  : "Simple todo application...... for now",
-  "main"         : "server.js",
-  "author"       : "Conor Macken",
-  "dependencies" : {
-    "express"    : "~3.4.4",
-    "mongoose"   : "~3.6.2"
-    },
-    "engines" : {
-      "node": "0.10.25"
-    }
-  }
+  "name": "node-todo",
+  "version": "0.0.0",
+  "description": "Simple todo application...... for now",
+  "main": "server.js",
+  "author": "Conor Macken",
+  "dependencies": {
+    "express": "~3.4.4",
+    "mongoose": "~3.6.2"
+  },
+  "engines": {
+    "node": "0.10.25"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cwmacken/node2do.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "todo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwmacken/node2do/issues"
+  },
+  "homepage": "https://github.com/cwmacken/node2do"
+}

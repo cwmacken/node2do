@@ -5,7 +5,7 @@
 
 // configuration =================
 
-mongoose.connect('mongodb://cwmacken:weare138@novus.modulusmongo.net:27017/i3hadysA'); 	// connect to mongoDB database on modulus.io
+mongoose.connect('mongodb://cwmacken:weare138@kahana.mongohq.com:10024/mean'); 	// connect to mongoDB database on modulus.io
 
 app.configure(function() {
 	app.use(express.static(__dirname + '/public')); 		// set the static files location /public/img will be /img for users
